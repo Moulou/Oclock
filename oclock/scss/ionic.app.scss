@@ -51,7 +51,7 @@ $rose: #e84a5f;
 
 
 
-.icon{
+.icone{
     width: $icon-taille;
     height: $icon-taille;
 }
@@ -67,11 +67,11 @@ h1{
     color: $light;
 }
 
-a{
+.categ a{
     text-decoration: none;
 }
 
-a:active{
+.categ a:active{
     border-top: 1px solid $rose;
 
 }
