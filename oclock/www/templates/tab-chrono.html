@@ -11,6 +11,31 @@
                   <span class="button button-outline button-dark button-block icon ion-ios-timer-outline button-rounded" ng-click="modal.show();selectTimer(30)">&nbsp;30 sec timer</span>
                   <span class="button button-outline button-balanced button-block icon ion-ios-timer-outline button-rounded" ng-click="modal.show();selectTimer(60)">&nbsp;1 min timer</span>
                   <span class="button button-outline button-royal button-block icon ion-ios-timer-outline button-rounded" ng-click="modal.show();selectTimer(120)">&nbsp;2 min timer</span>
+                  <div>
+                      <form ng-submit="recup();modal.show();selectTimer()">
+                          <div class="list">
+                              <label class="item item-input item-stacked-label">
+                                  <span class="input-label">Titre</span>
+                                  <input type="text" ng-model="title" name="title" placeholder="Chrono" required>
+                              </label>
+                              <label class="item item-input item-select">
+                                  <div class="input-label">
+                                      Catégories
+                                  </div>
+                                  <select ng-model="cate">
+                                      <option>Cuisine</option>
+                                      <option selected>Voiture</option>
+                                      <option>Sport</option>
+                                  </select>
+                              </label>
+                              <label class="item item-input item-stacked-label">
+                                  <span class="input-label">Temps</span>
+                                  <input type="number" ng-model="time" name="time" placeholder="00" required>
+                              </label>
+                              <button type="submit" class="button button-outline button-positive button-block icon ion-ios-timer-outline button-rounded">&nbsp;Start</button>
+                          </div>
+                      </form>
+                  </div>
               </ion-content>
           </ion-pane>
       </div>

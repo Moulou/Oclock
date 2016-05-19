@@ -66,7 +66,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           }
         }
       })
-  $urlRouterProvider.otherwise('/tab/home');
+  $urlRouterProvider.otherwise('/tab/addchrono');
 
 })
 
@@ -75,6 +75,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
 
     .controller('mainCtrl', function($scope, $ionicModal, $timeout) {
+
+      var title;
+      var categ;
+      var time;
+
+      $scope.recup = function() {
+        title = this.title;
+        categ = this.cate;
+        time = this.time;
+        console.log(title);
+        console.log(categ);
+        console.log(time);
+      };
       // Timer
       var mytimeout = null; // the current timeoutID
       // actual timer method, counts down every second, stops on zero
@@ -120,9 +133,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       });
       // UI
       // When you press a timer button this function is called
-      $scope.selectTimer = function(val) {
-        $scope.timeForTimer = val;
-        $scope.timer = val
+      $scope.selectTimer = function() {
+        $scope.timeForTimer = time;
+        $scope.timer = time;
         $scope.started = false;
         $scope.paused = false;
         $scope.done = false;
