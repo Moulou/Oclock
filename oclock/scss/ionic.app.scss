@@ -90,17 +90,31 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 }
 
 //Emilie
-$icon-taille: 35px;
-$icon-param : 20px;
+$icone-taille: 35px;
+$icone-param : 20px;
 $margin: 5%;
 $rose: #e84a5f;
 
+@font-face {
+  font-family: "Orator Stdt";
+  src: url("../font/OratorStdMedium.ttf");
+}
 
+h1, h2, h3, p{
+  font-family: "Orator Std";
+  color: $light;
+}
 
+h1{
+  font-size: 2em;
+}
 
+h3{
+  font-size: 1.5em;
+}
 .icone{
-    width: $icon-taille;
-    height: $icon-taille;
+    width: $icone-taille;
+    height: $icone-taille;
 }
 
 .param{
@@ -110,9 +124,7 @@ $rose: #e84a5f;
     opacity: 0.3;
 }
 
-h1{
-    color: $light;
-}
+
 
 .categ a{
     text-decoration: none;

@@ -9866,8 +9866,20 @@ a.button {
   .rounded-icons .marg {
     height: 30px; }
 
-.icone {
+@font-face {
+  font-family: "Orator Stdt";
+  src: url("../font/OratorStdMedium.ttf"); }
 
+h1, h2, h3, p {
+  font-family: "Orator Std"; }
+
+h1 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.5em; }
+
+.icone {
   width: 35px;
   height: 35px; }
 
