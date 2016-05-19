@@ -42,3 +42,48 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
     font-weight: 100;
 }
 
+// Antonin homepage
+.home_content {
+  text-align: center;
+    h1 {
+      color: $light;
+    }
+    h3 {
+      color: $light;
+    }
+}
+
+.rounded-icons {
+    margin-top: 90px;
+    .left {
+      width: 50%;
+      height: auto;
+      float: left;
+
+      .icon {
+        display: block;
+        margin: 0 auto;
+        height: 120px;
+        width: 120px;
+        border: 1px dashed $assertive;
+        border-radius: 50%;
+      }
+    }
+    .right {
+      width: 50%;
+      height: auto;
+      float: right;
+
+      .icon {
+        display: block;
+        margin: 0 auto;
+        height: 140px;
+        width: 140px;
+        border: 1px dashed $assertive;
+        border-radius: 50%;
+      }
+    }
+  .marg {
+    height: 30px;
+  }
+}
