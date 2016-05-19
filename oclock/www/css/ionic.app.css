@@ -9832,7 +9832,42 @@ a.button {
   text-align: center;
   font-weight: 100; }
 
+.home_content {
+  text-align: center; }
+  .home_content h1 {
+    color: #fff; }
+  .home_content h3 {
+    color: #fff; }
+
+.rounded-icons {
+  margin-top: 90px; }
+  .rounded-icons .left {
+    width: 50%;
+    height: auto;
+    float: left; }
+    .rounded-icons .left .icon {
+      display: block;
+      margin: 0 auto;
+      height: 120px;
+      width: 120px;
+      border: 1px dashed #e84a5f;
+      border-radius: 50%; }
+  .rounded-icons .right {
+    width: 50%;
+    height: auto;
+    float: right; }
+    .rounded-icons .right .icon {
+      display: block;
+      margin: 0 auto;
+      height: 140px;
+      width: 140px;
+      border: 1px dashed #e84a5f;
+      border-radius: 50%; }
+  .rounded-icons .marg {
+    height: 30px; }
+
 .icone {
+
   width: 35px;
   height: 35px; }
 
