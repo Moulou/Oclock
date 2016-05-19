@@ -9831,3 +9831,22 @@ a.button {
   font-size: 1em;
   text-align: center;
   font-weight: 100; }
+
+.icon {
+  width: 35px;
+  height: 35px; }
+
+.param {
+  width: 20px;
+  height: 20px;
+  margin: 5%;
+  opacity: 0.3; }
+
+h1 {
+  color: #fff; }
+
+a {
+  text-decoration: none; }
+
+a:active {
+  border-top: 1px solid #e84a5f; }

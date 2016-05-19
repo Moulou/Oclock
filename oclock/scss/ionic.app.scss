@@ -42,3 +42,36 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
     font-weight: 100;
 }
 
+//Emilie
+$icon-taille: 35px;
+$icon-param : 20px;
+$margin: 5%;
+$rose: #e84a5f;
+
+
+
+
+.icon{
+    width: $icon-taille;
+    height: $icon-taille;
+}
+
+.param{
+    width: $icon-param;
+    height: $icon-param;
+    margin : $margin;
+    opacity: 0.3;
+}
+
+h1{
+    color: $light;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    border-top: 1px solid $rose;
+
+}
