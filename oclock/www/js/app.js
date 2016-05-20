@@ -66,6 +66,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           }
         }
       })
-  $urlRouterProvider.otherwise('/tab/addchrono');
+  $urlRouterProvider.otherwise('/tab/home');
 
 });
