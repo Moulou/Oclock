@@ -68,6 +68,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
         width: 120px;
         border: 1px dashed $assertive;
         border-radius: 50%;
+        text-align: center;
+
+        img {
+          margin-top: 30px;
+          width: 45%;
+        }
       }
     }
     .right {
@@ -82,12 +88,16 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
         width: 30px;
         border: 1px dashed $assertive;
         border-radius: 50%;
+
+
       }
     }
   .marg {
     height: 30px;
   }
 }
+
+
 
 //Emilie
 $icone-taille: 35px;
@@ -135,6 +145,7 @@ h3{
     border-top: 1px solid $rose;
 
 }
+
 
 .add{
   margin : 60% 0% 60% 70%;

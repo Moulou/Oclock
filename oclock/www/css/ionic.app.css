@@ -9851,7 +9851,11 @@ a.button {
       height: 120px;
       width: 120px;
       border: 1px dashed #e84a5f;
-      border-radius: 50%; }
+      border-radius: 50%;
+      text-align: center; }
+      .rounded-icons .left .icon img {
+        margin-top: 30px;
+        width: 45%; }
   .rounded-icons .right {
     width: 50%;
     height: auto;
@@ -9866,6 +9870,9 @@ a.button {
   .rounded-icons .marg {
     height: 30px; }
 
+<<<<<<< HEAD
+.icon {
+=======
 @font-face {
   font-family: "Orator Stdt";
   src: url("../font/OratorStdMedium.ttf"); }
@@ -9881,6 +9888,7 @@ h3 {
   font-size: 1.5em; }
 
 .icone {
+>>>>>>> 019eefcbb9aafaa0a132080b546a38008011839e
   width: 35px;
   height: 35px; }
 
