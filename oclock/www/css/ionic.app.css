@@ -9859,8 +9859,8 @@ a.button {
     .rounded-icons .right .icon {
       display: block;
       margin: 0 auto;
-      height: 140px;
-      width: 140px;
+      height: 30px;
+      width: 30px;
       border: 1px dashed #e84a5f;
       border-radius: 50%; }
   .rounded-icons .marg {
@@ -9871,7 +9871,8 @@ a.button {
   src: url("../font/OratorStdMedium.ttf"); }
 
 h1, h2, h3, p {
-  font-family: "Orator Std"; }
+  font-family: "Orator Std";
+  color: #fff; }
 
 h1 {
   font-size: 2em; }
@@ -9889,11 +9890,11 @@ h3 {
   margin: 5%;
   opacity: 0.3; }
 
-h1 {
-  color: #fff; }
-
 .categ a {
   text-decoration: none; }
 
 .categ a:active {
   border-top: 1px solid #e84a5f; }
+
+.add {
+  margin: 60% 0% 60% 70%; }
