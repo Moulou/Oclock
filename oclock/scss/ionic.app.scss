@@ -84,8 +84,8 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
       .icon {
         display: block;
         margin: 0 auto;
-        height: 140px;
-        width: 140px;
+        height: 30px;
+        width: 30px;
         border: 1px dashed $assertive;
         border-radius: 50%;
 
@@ -97,20 +97,37 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   }
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 019eefcbb9aafaa0a132080b546a38008011839e
 //Emilie
-$icon-taille: 35px;
-$icon-param : 20px;
+$icone-taille: 35px;
+$icone-param : 20px;
 $margin: 5%;
 $rose: #e84a5f;
 
+@font-face {
+  font-family: "Orator Stdt";
+  src: url("../font/OratorStdMedium.ttf");
+}
 
+h1, h2, h3, p{
+  font-family: "Orator Std";
+  color: $light;
+}
 
+h1{
+  font-size: 2em;
+}
 
-.icon{
-    width: $icon-taille;
-    height: $icon-taille;
+h3{
+  font-size: 1.5em;
+}
+.icone{
+    width: $icone-taille;
+    height: $icone-taille;
 }
 
 .param{
@@ -120,16 +137,23 @@ $rose: #e84a5f;
     opacity: 0.3;
 }
 
-h1{
-    color: $light;
-}
 
-a{
+
+.categ a{
     text-decoration: none;
+
 }
 
-a:active{
+.categ a:active{
     border-top: 1px solid $rose;
 
 }
 
+<<<<<<< HEAD
+=======
+.add{
+  margin-top : 80%;
+}
+
+//test active
+>>>>>>> 019eefcbb9aafaa0a132080b546a38008011839e
