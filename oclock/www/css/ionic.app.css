@@ -9832,7 +9832,6 @@ a.button {
   text-align: center;
   font-weight: 100; }
 
-<<<<<<< HEAD
 .home_content {
   text-align: center; }
   .home_content h1 {
@@ -9852,7 +9851,11 @@ a.button {
       height: 120px;
       width: 120px;
       border: 1px dashed #e84a5f;
-      border-radius: 50%; }
+      border-radius: 50%;
+      text-align: center; }
+      .rounded-icons .left .icon img {
+        margin-top: 30px;
+        width: 45%; }
   .rounded-icons .right {
     width: 50%;
     height: auto;
@@ -9866,7 +9869,7 @@ a.button {
       border-radius: 50%; }
   .rounded-icons .marg {
     height: 30px; }
-=======
+
 .icon {
   width: 35px;
   height: 35px; }
@@ -9885,4 +9888,3 @@ a {
 
 a:active {
   border-top: 1px solid #e84a5f; }
->>>>>>> 34eb15c4e1970e10e0e6d4db0bf28c7f523dc9b0

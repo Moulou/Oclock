@@ -42,7 +42,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
     font-weight: 100;
 }
 
-<<<<<<< HEAD
+
 // Antonin homepage
 .home_content {
   text-align: center;
@@ -68,6 +68,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
         width: 120px;
         border: 1px dashed $assertive;
         border-radius: 50%;
+        text-align: center;
+
+        img {
+          margin-top: 30px;
+          width: 45%;
+        }
       }
     }
     .right {
@@ -82,13 +88,17 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
         width: 140px;
         border: 1px dashed $assertive;
         border-radius: 50%;
+
+
       }
     }
   .marg {
     height: 30px;
   }
 }
-=======
+
+
+
 //Emilie
 $icon-taille: 35px;
 $icon-param : 20px;
@@ -122,4 +132,4 @@ a:active{
     border-top: 1px solid $rose;
 
 }
->>>>>>> 34eb15c4e1970e10e0e6d4db0bf28c7f523dc9b0
+
